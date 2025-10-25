@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" 
+          rel="stylesheet">
+</head>
+
+<body class="bg-black text-light">
+
+    <!-- NAV -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-md">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="./img/Logo.svg" alt="Logo de la empresa" width="80">
+                </a>
+
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-light" href="/index.html">Inicio</a>
+                        <a class="nav-link text-light" href="/fotografias.html">Fotografías</a>
+                        <a class="nav-link text-light" href="/nhistoria.html">Nuestra historia</a>
+                        <a class="nav-link text-light" href="/ncultura.html">Nuestra cultura</a>
+                        <a class="nav-link text-light" href="/tarifas.html">tarifas</a>
+                        <a class="nav-link text-light" href="/blog.html">Blog</a>
+                        <a class="nav-link text-light active" aria-current="page" href="/contactanos.html">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-fluid py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5">Hablemos de tu próxima historia</h2>
+                <p class="fs-5 text-secondary">
+                    Cada proyecto es único. Estamos listos para crear imágenes que hablen por ti.
+                </p>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="h-100 w-100"
+                        style="background-image: url('./img/cultura9.png'); 
+                               background-size: contain; 
+                               background-position: center; 
+                               background-repeat: no-repeat;
+                               min-height: 500px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 bg-dark p-5 d-flex align-items-center">
+                    <form class="w-100">
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control bg-secondary border-secondary text-light"
+                                       placeholder="Nombre" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control bg-secondary border-secondary text-light"
+                                       placeholder="Correo" required>
+                            </div>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control bg-secondary border-secondary text-light"
+                                       placeholder="Tipo de proyecto (Boda, Moda, Retrato...)" required>
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="form-control bg-secondary border-secondary text-light" 
+                                          rows="4" placeholder="Cuéntanos más..." required></textarea>
+                            </div>
+
+                            <div class="col-12 d-grid">
+                                <button type="submit" class="btn btn-outline-light btn-lg rounded-0">
+                                    Enviar mensaje
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container text-center mt-5">
+                <h5 class="fw-semibold">Estamos muy cerca de ti:</h5>
+
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-md-3 mb-2 text-secondary">📍 Medellín - Colombia</div>
+                    <div class="col-md-3 mb-2 text-secondary">📞 +57 300 000 0000</div>
+                    <div class="col-md-3 mb-2 text-secondary">📧 contacto@tuempresa.com</div>
+                </div>
+            </div>
+            <div class="container text-center mt-4">
+                <p class="text-secondary mb-2">Síguenos y conectemos ✨</p>
+                <div class="d-flex justify-content-center gap-4 fs-3">
+                    <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-tiktok"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-behance"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
